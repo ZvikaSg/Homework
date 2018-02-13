@@ -1,0 +1,75 @@
+﻿
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+
+
+    <!--הטבלה השלמה-->
+    <table border="1" width="250">
+
+        <!--שורה ראשונה -->
+        <tr>
+
+            <!--תא 1 בשורה ראשונה -->
+            <!--תא 1 תופס מקום של ארבע שורות-->
+            <td rowspan="3" width="70"><center><b>test</b></center></td>
+
+
+
+            <!--תא 2 בשורה ראשונה -->
+            <!--תא 2 תופס מקום של תא אחד -->
+            <td colspan="1" width="50">
+                </br> line 1</br>
+                </br> line 2<br /></br>
+            </td>
+
+            <!--תא 3 בשורה ראשונה -->
+            <td colspan="1" width="100">
+                nested table:
+                <table border="1">
+
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+
+
+        <!--שורה שניה -->
+        <tr>
+            <!--תא 2 בשורה שניה -->
+            <!--תא 2 תופס מקום של שני תאים -->
+            <td colspan="2" width="200">
+                <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3
+                        <ol>
+                            <li>item 3.1</li>
+                            <li>item 3.2</li>
+                            <li>item 3.3</li>
+                        </ol>
+                    </li>            
+                    <li>Item 4</li>
+                    <li>Item 5</li>
+                </ul>
+
+
+        </tr>
+    </table>
+
+</body>
+</html>
